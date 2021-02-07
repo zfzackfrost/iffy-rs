@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Markdown badges to `README.md`
+### Fixed
+- Missing link in CHANGELOG for `Unreleased` heading
 
 ## [0.1.2] -- 2021-02-06
 ### Fixed
@@ -23,3 +25,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.1.0]: https://github.com/zfzackfrost/iffy-rs/releases/tag/v0.1.0
 [0.1.1]: https://github.com/zfzackfrost/iffy-rs/releases/tag/v0.1.1
 [0.1.2]: https://github.com/zfzackfrost/iffy-rs/releases/tag/v0.1.2
+[Unreleased]: https://github.com/zfzackfrost/iffy-rs
