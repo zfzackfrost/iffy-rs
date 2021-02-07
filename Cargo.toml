@@ -1,8 +1,8 @@
 [package]
 name = "iffy"
-version = "0.1.1"
+version = "0.1.2"
 readme = "README.md"
-license-file = "LICENSE"
+license = "MIT"
 repository = "https://github.com/zfzackfrost/iffy-rs"
 authors = ["Zachary Frost <10238600+zfzackfrost@users.noreply.github.com>"]
 description = "proc macro for simulating the ternary operator from C-like languages"
