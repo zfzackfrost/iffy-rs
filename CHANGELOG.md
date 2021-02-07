@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Markdown badges to `README.md`
 - Crate-level documentation
+- Copy Crate-level documentation to README.md
 ### Fixed
 - Missing link in CHANGELOG for `Unreleased` heading
 
