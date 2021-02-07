@@ -1,3 +1,38 @@
+//! This crate defines a macro to imitate the ternary operator
+//! found in C-like languages such as C, C++, Java, etc.
+//! The macro can be used to make more compact conditional
+//! expressions in Rust code.
+//!
+//! For example, this code in plain rust:
+//! ```
+//! let a = 20;
+//! let b = 30;
+//!
+//! // This is the part we will be able to simplify
+//! let min = if a < b {
+//!     a
+//! } else {
+//!     b
+//! };
+//!
+//! // Check the result
+//! assert_eq!(min, a);
+//! ```
+//! ... Can be shortened to the following, with this crate:
+//!
+//! ```
+//! let a = 20;
+//! let b = 30;
+//!
+//! // Shortened from the previous example
+//! let min = iffy::i!(a < b ? a : b);
+//!
+//! // Check the result
+//! assert_eq!(min, a);
+//! ```
+
+
+
 extern crate proc_macro;
 use proc_macro::TokenStream;
 
