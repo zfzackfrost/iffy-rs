@@ -6,8 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [0.1.1] -- 2021-02-06
+### Added
+- This CHANGELOG
+
 ## [0.1.0] -- 2021-02-06
 ### Added
 - Initial implementation of the proc macro
 
 [0.1.0]: https://github.com/zfzackfrost/iffy-rs/releases/tag/v0.1.0
+[0.1.1]: https://github.com/zfzackfrost/iffy-rs/releases/tag/v0.1.1
