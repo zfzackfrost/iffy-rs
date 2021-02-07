@@ -1,7 +1,8 @@
 # iffy-rs
 [![Crates.io](https://img.shields.io/crates/v/iffy)](https://crates.io/crates/iffy)
 [![Docs.rs](https://img.shields.io/docsrs/iffy)](https://docs.rs/iffy)
- 
+[![Github LICENSE](https://img.shields.io/github/license/zfzackfrost/iffy-rs?color=blue)](https://github.com/zfzackfrost/iffy-rs/blob/main/LICENSE)
+
 Rust proc macro for simulating the ternary operator from C-like languages.
 
 ------------------------------------------------------------------------------
@@ -10,7 +11,7 @@ This crate defines a macro to imitate the ternary operator found in C-like
 languages such as C, C++, Java, etc.  The macro can be used to make more
 compact conditional expressions in Rust code.
 
-For example, this code in plain rust:
+For example, this code in plain Rust:
 ```rust
 let a = 20;
 let b = 30;

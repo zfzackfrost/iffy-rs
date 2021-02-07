@@ -3,7 +3,7 @@
 //! The macro can be used to make more compact conditional
 //! expressions in Rust code.
 //!
-//! For example, this code in plain rust:
+//! For example, this code in plain Rust:
 //! ```
 //! let a = 20;
 //! let b = 30;
